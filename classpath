@@ -1,1 +1,3 @@
 http://stackoverflow.com/questions/1457863/what-causes-and-what-are-the-differences-between-noclassdeffounderror-and-classn
+ClassNotFoundException means the CL doesn't see .class file. NoClassDefFoundError means the .class file is there it is not loadable (possibly JNI error). 
+
