@@ -1,0 +1,17 @@
+
+1)tomcat datasource configuration and classpath points
+
+http://stackoverflow.com/questions/18621662/where-should-the-jdbc-driver-jar-files-reside-on-a-tomcat-deployment-with-a-data
+http://stackoverflow.com/questions/6981564/why-must-the-jdbc-driver-be-put-in-tomcat-home-lib-folder
+http://stackoverflow.com/questions/14633493/jar-files-in-tomcat-7-lib-directory
+
+
+https://tomcat.apache.org/tomcat-7.0-doc/jndi-datasource-examples-howto.html
+
+
+
+2) tomcat classpath
+
+https://www.mulesoft.com/tcat/tomcat-classpath
+
+https://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_More.html
