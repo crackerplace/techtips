@@ -1,0 +1,7 @@
+1)For DFS on an undirected graph with cycles and multiple edges between nodes ,we should check if the node is visited twice 
+i.e while adding a node x's edges to the stack and before processing some node from the stack by popping it.Because just
+ensuring that nodes visited are excluded from adding to the stack for a node x will not prevent multiple node visits as it
+has loops etc.So even if dont check if the node is already visited before you push it on to the stack ,its fine but before
+processing you should check if its already processed.
+This issue will not arise in a tree.
+https://www.hackerearth.com/problem/algorithm/vasya-and-party/description/
