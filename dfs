@@ -29,3 +29,11 @@ http://www.cs.toronto.edu/~heap/270F02/node36.html
       END DFS()
 
 Compare above with Recursive DFS https://home.cse.ust.hk/~dekai/271/notes/L06/L06.pdf
+
+
+2)Disjoint sets
+Disjoint set union can also be used to find number of connected components in a graph
+
+https://www.hackerearth.com/notes/abhinav92003/disjoint-set-union/
+https://www.hackerearth.com/notes/disjoint-set-union-union-find/
+https://www.topcoder.com/community/data-science/data-science-tutorials/disjoint-set-data-structures/
