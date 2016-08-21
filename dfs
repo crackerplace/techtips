@@ -8,7 +8,22 @@ processing you should check if its already processed.
 This issue will not arise in a tree.
 https://www.hackerearth.com/problem/algorithm/vasya-and-party/description/
 
-ex: 1-2 1-3 1-4 1-5 3-5 
+Ex: 1-2 1-3 1-4 1-5 3-5 
 In above example if dont check if node is already visited before processing and just check while adding it to the stack,we
 will visit 5 twice.Because the check that we perform before adding to the stack is a check on the visited vertices and which
 doesnt include vertices present in the stack.
+
+http://www.cs.toronto.edu/~heap/270F02/node36.html
+      DFS(G,v)   ( v is the vertex where the search starts )
+         Stack S := {};   ( start with an empty stack )
+         for each vertex u, set visited[u] := false;
+         push S, v;
+         while (S is not empty) do
+            u := pop S;
+            if (not visited[u]) then
+               visited[u] := true;
+               for each unvisited neighbour w of u
+                  push S, w;
+            end if
+         end while
+      END DFS()
