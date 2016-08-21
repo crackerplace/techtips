@@ -1,4 +1,4 @@
-1)For DFS on an undirected graph (cycles and multiple edges between nodes might be present),before processing each node by
+1)For Iterative DFS(not recursive) on an undirected graph (cycles and multiple edges between nodes might be present),before processing each node by
 popping if of teh stack we should check if the node is already visited.
 
 While adding a node x's edges to the stack  we might exlude adding the nodes if they are already visited.But this in itself 
@@ -20,10 +20,12 @@ http://www.cs.toronto.edu/~heap/270F02/node36.html
          push S, v;
          while (S is not empty) do
             u := pop S;
-            if (not visited[u]) then
+            if (not visited[u]) then                                    //This is the line which is essential
                visited[u] := true;
                for each unvisited neighbour w of u
                   push S, w;
             end if
          end while
       END DFS()
+
+Compare above with Recursive DFS https://home.cse.ust.hk/~dekai/271/notes/L06/L06.pdf
