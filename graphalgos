@@ -1,0 +1,6 @@
+a)Kruskals algo using disjoint set union
+https://www.hackerearth.com/notes/abhinav92003/disjoint-set-union/
+
+In Kruskal's algorithm, before adding an edge to the MST we need to check if the addition of the edge creates a cycle or not.
+We can use DSU here. If the parents of the two nodes that the edge connects are same, then we know that addition of the edge will create a cycle. 
+
