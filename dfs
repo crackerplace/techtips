@@ -28,7 +28,7 @@ http://www.cs.toronto.edu/~heap/270F02/node36.html
          end while
       END DFS()
 
-Compare above with Recursive DFS https://home.cse.ust.hk/~dekai/271/notes/L06/L06.pdf
+Compare above with Recursive DFS https://home.cse.ust.hk/~dekai/271/notes/L06/L06.pdf,https://github.com/crackerplace/techtips/edit/master/dfs
 
 
 2)Disjoint sets
