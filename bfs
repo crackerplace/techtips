@@ -6,3 +6,4 @@ https://www.hackerearth.com/notes/graph-theory-part-i/
 http://codeforces.com/blog/entry/22276
 Lemma : "During the execution of BFS, the queue holding the vertices only contains elements from at max two successive levels of the BFS tree."
 https://www.hackerearth.com/notes/graph-theory-part-i/
+http://stackoverflow.com/questions/13666472/bfs-shortest-path-edge-weight-either-1-or-2
