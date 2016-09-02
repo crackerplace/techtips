@@ -9,4 +9,4 @@ https://www.hackerearth.com/notes/graph-theory-part-i/
 http://stackoverflow.com/questions/13666472/bfs-shortest-path-edge-weight-either-1-or-2
 
 Prolem : https://pravalsinghal18.wordpress.com/2016/07/31/0-1-bfs/
-         http://www.spoj.com/problems/KATHTHI/    
+         http://www.spoj.com/problems/KATHTHI/   (Understand this problem of how a matrix is mapped to a graph where cells represent nodes and equality or not of adjacent cells represents weights.So this is not the normal adjaceny matrix kind of intuition) 
