@@ -1,0 +1,3 @@
+https://www.hackerearth.com/notes/graph-theory-part-i/
+
+BFS can be used in finding minimum distance from one node of graph to another, provided all the edges in graph have same weight. 
