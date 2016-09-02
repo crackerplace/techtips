@@ -1,3 +1,5 @@
 https://www.hackerearth.com/notes/graph-theory-part-i/
 
 BFS can be used in finding minimum distance from one node of graph to another, provided all the edges in graph have same weight. 
+As we know in BFS, we traverse level wise, i.e first we visit all the nodes of one level and then visit to nodes of another level. We can use BFS to determine level of each node.
+
