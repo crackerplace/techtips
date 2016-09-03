@@ -1,4 +1,7 @@
 https://www.hackerearth.com/notes/graph-theory-part-i/
+https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
+
+As one might notice, we used recursion for a DFS search. However, the same cannot be applied for BFS. The graph needs to be traversed in a "First In First Out" manner and thus, a Data-Structure such a List or a Queue needs to be used. The nodes at a lower level are visited before the nodes that are present at a higher level in the same tree.
 
 1)BFS can be used in finding minimum distance from one node of graph to another, <b>provided all the edges in graph have same weight. <b>
 2)As we know in BFS, we traverse level wise, i.e first we visit all the nodes of one level and then visit to nodes of another level. We can use BFS to determine level of each node.
